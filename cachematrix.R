@@ -20,5 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setCache = setCache, getCache = getCache)
 }
 
-  
+## Return inverse of cachedmatrix x. This looks up the cache if it is available. 
+
 
