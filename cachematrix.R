@@ -10,6 +10,15 @@ makeCacheMatrix <- function(x = matrix()) {
     x <<- y
     inv <<- NULL
   }
+ 
+  get <- function() x
   
+  setCache <- function(matinv) inv <<- matinv
+  
+  getCache <- function() inv
+  
+  list(set = set, get = get, setCache = setCache, getCache = getCache)
+}
+
   
 
