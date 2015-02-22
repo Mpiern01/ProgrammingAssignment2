@@ -40,3 +40,4 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
+## final result works in R Studio
